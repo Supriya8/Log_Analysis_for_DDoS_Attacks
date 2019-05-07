@@ -11,6 +11,11 @@ Detects DDoS attacked IPaddresses from the Log Data
 
 
 # Data Ingestion - Workflow in Apache NiFi
+![image](https://user-images.githubusercontent.com/10507993/57264776-7f23a500-7039-11e9-8a46-02053169c4cf.png)
+
 
 # Detection of DDoS Attacks from logs	 
+* Using PySpark program reading the HDFS file and Created DataFrame.
+* Using SparkSQL detected the DDoS attacked Ipaddress in the log data.
+* Extracted the attacked Ipaddress into a HDFS file.
 
