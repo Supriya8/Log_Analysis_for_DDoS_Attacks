@@ -9,6 +9,10 @@ Detects DDoS attacked IPaddresses from the Log Data
 # Data Pipeline
 ![image](https://user-images.githubusercontent.com/10507993/57264698-0fadb580-7039-11e9-816a-e94039aceaf3.png)
 
+* “**Tail File**” processor is used to tail a file, or multiple files, ingesting data from the file as it is written to the file. 
+*	“**Replace Text**” Processor converting the log data into CSV.
+*	“**PutHDFS**” Processor ingest data in HDFS.
+
 
 # Data Ingestion - Workflow in Apache NiFi
 ![image](https://user-images.githubusercontent.com/10507993/57264776-7f23a500-7039-11e9-8a46-02053169c4cf.png)
