@@ -7,6 +7,8 @@ Detects DDoS attacked IPaddresses from the Log Data
 * In this project we are trying to find out if a range of IP addresses sends too many connection requests over a small window of time.
 
 # Data Pipeline
+![image](https://user-images.githubusercontent.com/10507993/57264698-0fadb580-7039-11e9-816a-e94039aceaf3.png)
+
 
 # Data Ingestion - Workflow in Apache NiFi
 
